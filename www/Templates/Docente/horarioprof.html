@@ -1,0 +1,60 @@
+<ion-header-bar class="bar-balanced" align-title="center">
+    <a href="#/menuprof" class="button button-icon icon ion-ios-arrow-back"></a>
+    <p class="title">Horario Docente</p>
+</ion-header-bar>
+
+<ion-view>
+    <ion-content has-header="true">
+
+        <div ng-repeat="asignatura in horario">
+
+            <div class="list-borderless card">
+
+                <div class="row texto-centrado">
+                    <h4 class="col title balanced">{{asignatura.nombre}}</h4>
+                </div>
+
+                <div class="row list-borderless">
+
+                    <div class="col item">
+                        <p>Codigo</p>
+                        <h3>{{asignatura.codigo}}</h3>
+                    </div>
+
+                    <div class="col item">
+                        <p>Grupo</p>
+                        <h3>{{asignatura.grupo}}</h3>
+                    </div>
+
+                    <div class="col item">
+                        <p>Creditos</p>
+                        <h3>{{asignatura.creditos}}</h3>
+                    </div>
+
+                </div>
+
+                <div class="row list-borderless">
+
+                    <div class="col item">
+                        <p>Lugar</p>
+                        <h3>{{asignatura.lugar}}</h3>
+                    </div>
+
+                    <div class="col item">
+                        <p>Dia(s)</p>
+                        <h3>{{asignatura.dia}}</h3>
+                    </div>
+
+                    <div class="col item">
+                        <p>Hora(s)</p>
+                        <h3>{{asignatura.hora}}</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>

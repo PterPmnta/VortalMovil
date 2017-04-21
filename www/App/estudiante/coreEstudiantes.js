@@ -1,0 +1,1 @@
+angular.module('coreEstudiantes', ['perfilEstudiante', 'horarioEstudiante', 'calificacionesEstudiante', 'calendarioEstu']);

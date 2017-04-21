@@ -1,0 +1,72 @@
+<ion-header-bar class="bar-balanced" align-title="center">
+    <a href="#/menuestu" class="button button-icon icon ion-ios-arrow-back"></a>
+    <p class="title">Horario Estudiante</p>
+</ion-header-bar>
+
+<ion-view>
+    <ion-content has-header="true">
+
+        <div ng-repeat="asignatura in horario">
+
+            <div class="list-borderless card">
+
+                <div class="row texto-centrado">
+                    <h4 class="col title balanced">{{asignatura.nombre}}</h4>
+                </div>
+
+                <div class="row list-borderless">
+
+                    <div class="col item">
+                        <p>Codigo</p>
+                        <h2>{{asignatura.codigo}}</h2>
+                    </div>
+
+                    <div class="col item">
+                        <p>Grupo</p>
+                        <h2>{{asignatura.grupo}}</h2>
+                    </div>
+
+                    <div class="col item">
+                        <p>Creditos</p>
+                        <h2>{{asignatura.creditos}}</h2>
+                    </div>
+
+                </div>
+
+                <div class="row list-borderless">
+
+                    <div class="col item">
+                        <p>Lugar</p>
+                        <h2>{{asignatura.lugar}}</h2>
+                    </div>
+
+                    <div class="col item">
+                        <p>Dia(s)</p>
+                        <h2>{{asignatura.dia}}</h2>
+                    </div>
+
+                    <div class="col item">
+                        <p>Hora(s)</p>
+                        <h2>{{asignatura.hora}}</h2>
+                    </div>
+
+                </div>
+
+                <div class="row list-borderless">
+
+                    <div class="col item">
+                        <p>Docente</p>
+                    </div>
+
+                    <div class="col item">
+                        <h2>{{asignatura.docente}}</h2>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>

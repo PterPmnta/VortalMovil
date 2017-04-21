@@ -1,0 +1,20 @@
+<ion-header-bar class="bar-balanced" align-title="center">
+    <back-menu click="Retroceder()"></back-menu>
+    <p class="title">Noticias</p>
+</ion-header-bar>
+
+<ion-view>
+
+    <div class="list">
+
+        <a class="item item-avatar" ng-repeat="tweet in tweets">
+            <img ng-src="{{ tweet.user.profile_image_url }}">
+            <h2>{{ tweet.user.name }}</h2>
+            <small>@{{ tweet.user.screen_name }}</small>
+            <small class="time"> {{ tweet.created_at | formatTwitterDate}}</small>
+            <p compile="tweet.text | formatTwitterText"></p>
+        </a>
+
+    </div>
+
+</ion-view>

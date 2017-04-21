@@ -1,0 +1,87 @@
+<ion-header-bar class="bar-balanced" align-title="center">
+    <p class="title">Menu Estudiante</p>
+    <button class="button button-icon ion-log-out" ng-click="showConfirm()"></button>
+</ion-header-bar>
+
+<ion-view>
+    <ion-content has-header="true">
+
+        <div class="container">
+
+            <!--Fila Uno-->
+
+            <div class="cell-row cell-row-1">
+
+                <div class="cell-1">
+                    <a href="#/perfilestu">
+                        <div>
+                            <div><i class="ion-ios-person-outline"></i></div>
+                            <div>Perfil</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="cell-2">
+                    <a href="#/horarioestu">
+                        <div>
+                            <div><i class="ion-ios-time-outline"></i></div>
+                            <div>Horario</div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <!--Fila Dos-->
+
+            <div class="cell-row cell-row-2">
+
+                <div class="cell-3">
+                    <a href="#/calificaciones">
+                        <div>
+                            <div><i class="ion-stats-bars"></i></div>
+                            <div>Calificaciones</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="cell-4">
+                    <a href="#/calendarioestu">
+                        <div>
+                            <div><i class="ion-ios-calendar-outline"></i></div>
+                            <div>Calendario</div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <!--Fila Tres-->
+
+            <div class="cell-row cell-row-3">
+
+                <div class="cell-5">
+                    <a href="#/noticias">
+                        <div>
+                            <div><i class="ion-ios-paper-outline"></i></div>
+                            <div>Noticias</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="cell-6">
+                    <a href="#/oficinas/:tab">
+                        <div>
+                            <div><i class="ion-ios-briefcase-outline"></i></div>
+                            <div>Info. Admon.</div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </ion-content>
+
+</ion-view>

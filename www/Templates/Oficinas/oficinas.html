@@ -1,0 +1,78 @@
+<ion-header-bar class="bar-balanced" align-title="center">
+    <go-back click="Retroceder()"></go-back>
+    <p class="title">Oficinas</p>
+</ion-header-bar>
+
+<ion-view>
+
+    <div class="tabs tabs-striped tabs-top tabs-balanced">
+        <a class="tab-item" ng-class="{'active': currentTab === 'programas'}" ng-click="currentTab = 'programas'">
+           Programas
+        </a>
+        <a class="tab-item" ng-class="{'active': currentTab === 'decanaturas'}" ng-click="currentTab = 'decanaturas'">
+           Facultades
+        </a>
+        <a class="tab-item" ng-class="{'active': currentTab === 'admon'}" ng-click="currentTab = 'admon'">
+           Admon
+        </a>
+    </div>
+
+    <ion-content class="has-tabs-top color-tabs">
+
+        <div class="list list-borderless card color-tabs" ng-repeat="programa in programas" ng-if="currentTab === 'programas'">
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-person-outline balanced"></i> {{programa.director}}
+            </div>
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-briefcase-outline balanced"></i> {{programa.oficina}}
+            </div>
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-telephone-outline balanced"></i> {{programa.telefono}}
+            </div>
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-email-outline balanced"></i> {{programa.correo}}
+            </div>
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-clock-outline balanced"></i> Horario de atencion
+            </div>
+        </div>
+
+        <div class="list list-borderless card color-tabs" ng-repeat="decanatura in decanaturas" ng-if="currentTab === 'decanaturas'">
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-person-outline balanced"></i> {{decanatura.director}}
+            </div>
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-briefcase-outline balanced"></i> {{decanatura.oficina}}
+            </div>
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-telephone-outline balanced"></i> {{decanatura.telefono}}
+            </div>
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-email-outline balanced"></i> {{decanatura.correo}}
+            </div>
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-clock-outline balanced"></i> Horario de atencion
+            </div>
+        </div>
+
+        <div class="list list-borderless card color-tabs" ng-repeat="admon in admon" ng-if="currentTab === 'admon'">
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-person-outline balanced"></i> {{admon.director}}
+            </div>
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-briefcase-outline balanced"></i> {{admon.oficina}}
+            </div>
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-telephone-outline balanced"></i> {{admon.telefono}}
+            </div>
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-email-outline balanced"></i> {{admon.correo}}
+            </div>
+            <div class="item item-icon-left">
+                <i class="icon ion-ios-clock-outline balanced"></i> Horario de atencion
+            </div>
+        </div>
+
+    </ion-content>
+
+</ion-view>

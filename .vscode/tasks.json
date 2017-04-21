@@ -1,0 +1,6 @@
+{
+    "version": "0.1.0",
+    "command": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "isShellCommand": true,
+    "args": ["index.html"]
+}

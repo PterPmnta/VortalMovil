@@ -1,0 +1,45 @@
+<ion-header-bar class="bar-balanced" align-title="center">
+    <a href="#/menuprof" class="button button-icon icon ion-ios-arrow-back"></a>
+    <p class="title">Grupos</p>
+</ion-header-bar>
+
+<ion-view>
+    <ion-content has-header="true">
+
+        <div ng-controller="mostrarGruposProf">
+
+            <div class="list">
+
+                <label class="item item-input item-select">
+                
+                    <div class="input-label">
+                        Grupos
+                    </div>              
+                
+                    <select ng-change="datos.opcionGrupo()" 
+                            ng-options= "grupo.Codigo as grupo.Nombre for grupo in datos.menuGrupos" 
+                            ng-model="seleccionado">
+                        <option value="">Seleccione un grupo</option>
+                    </select>   
+                    
+                </label>
+
+            </div>
+
+            <div class="list">
+
+                <div class="item item-divider">
+                    Estudiantes
+                </div>
+
+                <div class="item" ng-repeat="Lista in listaGrupo">
+                    <div>{{Lista.nombre}} {{Lista.apellido}}</div>
+                    <div>{{Lista.cedula}}</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>

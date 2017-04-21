@@ -1,0 +1,1 @@
+angular.module('coreProfesores', ['perfilProfesor', 'horarioProfesor', 'gruposProfesor', 'calendarioProf']);

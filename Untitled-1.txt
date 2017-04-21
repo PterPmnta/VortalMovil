@@ -1,0 +1,236 @@
+{
+	"knownSymbols": {
+		"version": [
+			{
+				"name": "version",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "var",
+				"isDefault": false
+			}
+		],
+		"fn": [
+			{
+				"name": "fn",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "var",
+				"isDefault": false
+			}
+		],
+		"utc": [
+			{
+				"name": "utc",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"unix": [
+			{
+				"name": "unix",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"invalid": [
+			{
+				"name": "invalid",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"isMoment": [
+			{
+				"name": "isMoment",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"isDate": [
+			{
+				"name": "isDate",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"isDuration": [
+			{
+				"name": "isDuration",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"lang": [
+			{
+				"name": "lang",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"locale": [
+			{
+				"name": "locale",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"localeData": [
+			{
+				"name": "localeData",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"longDateFormat": [
+			{
+				"name": "longDateFormat",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "var",
+				"isDefault": false
+			}
+		],
+		"relativeTime": [
+			{
+				"name": "relativeTime",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "var",
+				"isDefault": false
+			}
+		],
+		"meridiem": [
+			{
+				"name": "meridiem",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "var",
+				"isDefault": false
+			}
+		],
+		"calendar": [
+			{
+				"name": "calendar",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "var",
+				"isDefault": false
+			}
+		],
+		"ordinal": [
+			{
+				"name": "ordinal",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "var",
+				"isDefault": false
+			}
+		],
+		"duration": [
+			{
+				"name": "duration",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"parseZone": [
+			{
+				"name": "parseZone",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"months": [
+			{
+				"name": "months",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"monthsShort": [
+			{
+				"name": "monthsShort",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"weekdays": [
+			{
+				"name": "weekdays",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"weekdaysShort": [
+			{
+				"name": "weekdaysShort",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"weekdaysMin": [
+			{
+				"name": "weekdaysMin",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"min": [
+			{
+				"name": "min",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"max": [
+			{
+				"name": "max",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"normalizeUnits": [
+			{
+				"name": "normalizeUnits",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"relativeTimeThreshold": [
+			{
+				"name": "relativeTimeThreshold",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"ISO_8601": [
+			{
+				"name": "ISO_8601",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"defaultFormat": [
+			{
+				"name": "defaultFormat",
+				"path": "c:\\Users\\PterPmntaM\\AplicacionesIonic\\unicesarApp\\platforms\\android\\build\\intermediates\\assets\\armv7\\debug\\www\\lib\\moment\\moment.d.ts",
+				"type": "var",
+				"isDefault": false
+			}
+		]
+	}
+}
